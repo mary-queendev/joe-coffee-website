@@ -43,7 +43,7 @@ border-radius: 8px;
 
 .bg {
   
-  background-image: url("./images/coffeegrains.jpg");
+  background-image: url("/images/coffeegrains.jpg");
   background-size: 100%;
   height: 400px;
   font-size: 50px;
