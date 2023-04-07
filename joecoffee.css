@@ -1,0 +1,132 @@
+* {
+  margin: 0 3px;
+  padding: 0;
+}
+
+img{
+border-radius: 8px;
+}
+.head {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  padding: 7px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 50px;
+  color: rgb(0, 162, 255);
+  margin-left: 7px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", seriff;
+  font-weight: bolder;
+}
+
+.navlist {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  align-items: center;
+  color: black;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.bg {
+  
+  background-image: url("./images/coffeegrains.jpg");
+  background-size: 100%;
+  height: 400px;
+  font-size: 50px;
+  color: black;
+  text-align: right;
+  border-radius: 8px;
+}
+.paragraph1 {
+  display: flex;
+  gap: 50px;
+  /* background-color: aqua;  */
+  border: 1px;
+  justify-content: space-between;
+  padding: 30px;
+}
+.paragraph2 {
+  display: flex;
+  gap: 50px;
+  /* background-color: grey;  */
+  border: 1px;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.paragraph3 {
+  display: flex;
+  gap: 50px;
+  /* background-color: rgba(56, 187, 84, 0.753);  */
+  border: 1px;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.paragraph4 {
+  display: flex;
+  gap: 50px;
+  /* background-color: rgba(56, 167, 187, 0.753);  */
+  border: 1px;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line4,
+.line3,
+.line2,
+.line1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+
+.order {
+  color: black;
+  justify-content: center;
+  display: inline-block;
+  background-color: rgba(81, 81, 216, 0.89);
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.paragraph1:hover {
+  background-color: rgba(167, 164, 164, 0.363);
+}
+.paragraph2:hover {
+  background-color: rgba(167, 164, 164, 0.363);
+}
+.paragraph3:hover {
+  background-color: rgba(167, 164, 164, 0.363);
+}
+.paragraph4:hover {
+  background-color: rgba(167, 164, 164, 0.363);
+}
+.order-page{
+  text-align: center;
+  font-size: 50px;
+  margin: 100px auto;
+}
